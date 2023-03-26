@@ -9,12 +9,46 @@
 {% endblock %}
 
 {% block body_block %}
-<div class="container-fluid">
-    <div class="row">
+<div class="container-fluid ms-3">
+    <div class="row mb-3">
         <div class = "col">
             <strong class="fs-1">About</strong>
             <div class="me-5">
                 <hr class="mysolid">
+            </div>
+        </div>
+    </div>
+
+    <div class="row ps-3 pe-5">
+        <div class="col-lg-5 mb-5">
+            <img src="{% static 'images/placeholder.jpg' %}" width = 100% height = auto alt = "picture of me">
+        </div>
+        <div class="col">
+            <div class="container-fluid">
+                <div class="text-end fs-1">
+                    <strong>Davd Mead</strong>
+                    <div class="ms-5 ps-5">
+                        <hr class="mysolid">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col text-end">
+                        I am a Electronc Engineering student at Glasgow Universty. 
+                        <br><br>
+                        I have an intrest in how we intreact with the world thorugh Software and hardware like websites, video games, phyisical devices like phone and remotes.
+                        <br><br>
+                        This webpage is my <em>"informationHub"</em> it is here to dispay all my completed and in progress projects for employers, myself and other to look at.
+                    </div>
+                </div>
+
+                <div class="row text-center mb-2">
+                    <div class="col">
+                        <a name="CV" id="" class="btn btn-dark w-25" href="#" role="button">CV</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
