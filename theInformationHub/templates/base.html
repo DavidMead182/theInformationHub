@@ -28,46 +28,47 @@
     <body class = "customBackground">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark dp02">
             <div class="container-fluid">
-              <a class="navbar-brand" href="">theInformationHub</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                </ul>
-                <span class="navbar-text">
-                    <div class="btn-group">
-                        <button class="btn btn-dark" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                    Contact Me
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="triggerId">
-                            <a class="dropdown-item" href="#">Action</a>
+                <a class="navbar-brand" href="">theInformationHub</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 al">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <div class="btn-group">
+                            <button class="btn btn-dark" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                        Contact Me
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="triggerId">
+                                <a class="dropdown-item" href="#">Action</a>
+                            </div>
                         </div>
-                    </div>
-                </span>
-              </div>
+                    </span>
+                </div>
             </div>
         </nav>
 
-        <main class = "text-light pt-5">
+        <main class = "text-light pt-5 overflow-auto">
             {% block body_block %}
             {% endblock %}
         </main>
 
-        <footer class = "bg-dark py-5 mt-5 position-absolute bottom-0 start-50 translate-middle-x w-100">
+        <footer class = "bg-dark py-5 mt-5">
             <div class="container text-light text-center">
                 <p class = "display-5 mb-3">
-                     theInformationHub <br> <small>By David Mead</small>
+                    theInformationHub <br> 
+                    <small>By David Mead</small>
                 </p>
                 <small class="text-white-50">&copy; Copyright by David Mead. All rights reserved</small>
             </div>
