@@ -6,6 +6,7 @@
 	0px 1px 5px 0px hsla(0,0%,0%,0.2);
 }
 
+
 .customBackground{
     background-color: #212529f3;
 }
@@ -17,8 +18,8 @@
   }
 
 .profile{
-    border-radius: 50%;
     width:400px;
+    filter: drop-shadow(0 0 0.25rem grey);
 }
 
 
@@ -32,3 +33,17 @@
 .card-group.card-group-scroll > .card {
     flex-basis: 35%;
 }
+
+main {
+    overflow: hidden;
+  }
+
+hr.mysolid {
+    border-top: 3px solid white;
+  }
+
+  .portfoliocrop{
+    height:433px;
+    width: 100%;
+    object-fit: cover;
+  }
