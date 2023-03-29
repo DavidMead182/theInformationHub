@@ -26,7 +26,7 @@
                     Myself and Lab partner built a heartbeat sensor with a Freadom board and combined it with 2 external cicuits for the input and output.
                     </p>
                 </div>
-                <a href="#" class="btn btn-dark stretched-link">Go to Project</a>
+                <a href="{% url 'informationhub:heartbeat' %}" class="btn btn-dark stretched-link">Go to Project</a>
             </div>
 		</div>
 		<div class="col-md-4">
@@ -39,21 +39,21 @@
                        Myself and a team created a website called myChatGla that uses bootstap, databases, ajax and much more to provide an aesthetic chatroom website.
                     </p>
                 </div>
-                <a href="#" class="btn btn-dark stretched-link">Go to Project</a>
+                <a href="{% url 'informationhub:myChatGla' %}" class="btn btn-dark stretched-link">Go to Project</a>
             </div>
 		</div>
 
 		<div class="col-md-4">
-    <div class="card bg-dark me-2 mb-3">
-        <img src="{% static 'images/informationhublogo.jpg' %}" class="portfoliocrop" alt="Project placeholder"/>
-        <div class="card-body bg-dark">
-            <h5 class="card-title">theInformatonHub</h5>
-            <p class="card-text">
-              This the website you are currently viewing, it s a simpe aesthetc and useful way of displayiing my portfolio of projects & achievements
-            </p>
-        </div>
-        <a href="#" class="btn btn-dark stretched-link">Go to Project</a>
-    </div>
+            <div class="card bg-dark me-2 mb-3">
+                <img src="{% static 'images/informationhublogo.jpg' %}" class="portfoliocrop" alt="Project placeholder"/>
+                <div class="card-body bg-dark">
+                    <h5 class="card-title">theInformatonHub</h5>
+                    <p class="card-text">
+                    This the website you are currently viewing, it s a simpe aesthetc and useful way of displayiing my portfolio of projects & achievements
+                    </p>
+                </div>
+                <a href="{% url 'informationhub:thinformationhubsite' %}" class="btn btn-dark stretched-link">Go to Project</a>
+            </div>
 		</div>
 	</div>
 	<div class="row">
@@ -97,5 +97,54 @@
         
 		</div>
 	</div>
+
+    <div class="row">
+        <strong class="fs-1">Work In Progress/New Ideas</strong>
+        <div class="me-5">
+            <hr class="mysolid">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card bg-dark me-2 mb-3">
+                <img src="{% static 'images/placeholder.jpg' %}" class="portfoliocrop" alt="Project placeholder"/>
+                <div class="card-body bg-dark">
+                    <h5 class="card-title">placeholder</h5>
+                    <p class="card-text">
+                      placeholder
+                    </p>
+                </div>
+                <a href="#" class="btn btn-dark stretched-link">Go to Project</a>
+            </div>
+        
+		</div>
+		<div class="col-md-4">
+            <div class="card bg-dark me-2 mb-3">
+                <img src="{% static 'images/placeholder.jpg' %}" class="portfoliocrop" alt="Project placeholder"/>
+                <div class="card-body bg-dark">
+                    <h5 class="card-title">placeholder</h5>
+                    <p class="card-text">
+                      placeholder
+                    </p>
+                </div>
+                <a href="#" class="btn btn-dark stretched-link">Go to Project</a>
+            </div>
+        
+		</div>
+		<div class="col-md-4">
+            <div class="card bg-dark me-2 mb-3">
+                <img src="{% static 'images/placeholder.jpg' %}" class="portfoliocrop" alt="Project placeholder"/>
+                <div class="card-body bg-dark">
+                    <h5 class="card-title">placeholder</h5>
+                    <p class="card-text">
+                      placeholder
+                    </p>
+                </div>
+                <a href="#" class="btn btn-dark stretched-link">Go to Project</a>
+            </div>
+        
+		</div>
+    </div>
 </div>
 {% endblock %}

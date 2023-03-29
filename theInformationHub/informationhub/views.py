@@ -16,3 +16,18 @@ def about(request):
     context_dic = {}
     context_dic['about'] = "active"
     return render(request,'about.html', context=context_dic)
+
+def myChatGla(request):
+    context_dic = {}
+    context_dic['portfolio'] = "active"
+    return render(request,'myChatGla.html', context=context_dic)
+
+def heartbeat(request):
+    context_dic = {}
+    context_dic['portfolio'] = "active"
+    return render(request,'heartbeat.html', context=context_dic)
+
+def thinformationhubsite(request):
+    context_dic = {}
+    context_dic['portfolio'] = "active"
+    return render(request,'thinformationhubsite.html', context=context_dic)
