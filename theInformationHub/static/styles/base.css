@@ -1,14 +1,14 @@
-.dp02 {
-	background-color: hsla(0, 100%, 100%, 0.07);
-	box-shadow:
-	0px 2px 2px 0px hsla(0,0%,0%,0.14), 
-	0px 3px 1px -2px hsla(0,0%,0%,0.12), 
-	0px 1px 5px 0px hsla(0,0%,0%,0.2);
+:root{
+  --bg-color : #212529f3;
 }
 
 
+.titles{
+  font-family:'Source Code Pro',monospace;
+}
+
 .customBackground{
-    background-color: #212529f3;
+    background-color: var(--bg-color);
 }
 
 .footer {
@@ -34,6 +34,9 @@
     flex-basis: 35%;
 }
 
+.blackshadow{
+  filter: drop-shadow(0px 5px 24px #000);
+}
 main {
     overflow: hidden;
   }

@@ -26,7 +26,7 @@
 
 
     <body class = "customBackground w-100">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark dp02 sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark blackshadow sticky-top ps-3 pe-3 titles">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{% url 'informationhub:homepage' %}">
                     <img src="{% static 'images/informationhublogo.jpg' %}" class="rounded-circle d-inline-block align-text-top" alt="" width="30" height="24">
@@ -53,7 +53,7 @@
                                         Contact Me
                             </button>
                             <div class="dropdown-menu dropdown-menu-dark dropdown-menu-start dropdown-menu-lg-end" aria-labelledby="triggerId">
-                                <div class="dropdown-item btn btn-dark rounded">  davidmead014@gmail.com<button name="copy" onClick="copyText()" class="btn btn-dark" href="#" role="button">Copy</button></div>
+                                <div class="dropdown-item btn btn-dark rounded">  davidmead014@gmail.com<button name="copy" onClick="copyText()" class="btn btn-dark ms-2" href="#" role="button">Copy</button></div>
                                 <script>
                                     function copyText(){
                                         navigator.clipboard.writeText("davidmead014@gmail.com")
@@ -66,12 +66,12 @@
             </div>
         </nav>
 
-        <main class = "text-light pt-5 overflow-hidden">
+        <main class = "text-light pt-3 overflow-hidden customBackground">
             {% block body_block %}
             {% endblock %}
         </main>
 
-        <footer class = "bg-dark py-5 mt-5 container-fluid">
+        <footer class = "bg-dark py-5 mt-5 container-fluid titles">
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col">
                     <div class="container text-light text-center">
