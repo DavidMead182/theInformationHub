@@ -29,7 +29,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark blackshadow sticky-top ps-3 pe-3 titles">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{% url 'informationhub:homepage' %}">
-                    <img src="{% static 'images/informationhublogo.jpg' %}" class="rounded-circle d-inline-block align-text-top" alt="" width="30" height="24">
+                    <img src="{% static 'images/informationhublogo.jpg' %}" class="rounded d-inline-block align-text-top" alt="" width="30" height="24">
                     theInformationHub
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,7 +66,7 @@
             </div>
         </nav>
 
-        <main class = "text-light pt-3 overflow-hidden customBackground">
+        <main class = "text-light pt-3 overflow-hidden customBackground ps-5 pe-5">
             {% block body_block %}
             {% endblock %}
         </main>
